@@ -7,7 +7,8 @@ import com.example.ElastSearchBootApplication;
 
 
 @SpringBootTest
-@ContextConfiguration(classes = ElastSearchBootApplication.class)
+@TestConfiguration
+//@ContextConfiguration(classes = ElastSearchBootApplication.class)
 class BankappApplicationTests {
 
 	@Test
